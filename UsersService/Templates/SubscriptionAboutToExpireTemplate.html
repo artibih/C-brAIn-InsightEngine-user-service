@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscription About to Expire</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #eff2f7;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #ffffff;">
+        <tr>
+            <td>
+                <table align="center" cellpadding="0" cellspacing="0" border="0" width="600" class="container">
+                    <tr>
+                        <td class="header">
+                            <img src="data:image/jpeg;base64,{{Logo}}" alt="Logo" width="200" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="content">
+                            <h2>Hello, {{organizationName}}</h2>
+                            <p>
+                                This is a friendly reminder that {{organizationName}}'s subscription plan <strong>{{subscriptionPlan}}</strong> will expire in <strong>7</strong> days.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="footer">
+                            <p style="margin: 0;">
+                                &copy; {{currentYear}} C-brAIn. All rights reserved.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
